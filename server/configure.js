@@ -22,6 +22,11 @@ app.use(morgan('dev'));
 if('development' === app.get('env')) {
   app.use(errorHandler());
 }
-  // routes(app);
+  app.engine('handlebars', exphbs.create({
+    defaultLayout: 'main', 
+    layoutsDir: app.get('views') + '/layouts',
+    partialsDir: [app.get('views') + '/partials']
+  }).engine);
+  app.set('view engine', 'handlebars');
   return app;
 };
