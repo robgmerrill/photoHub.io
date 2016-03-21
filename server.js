@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 3300);
 app.set('views', __dirname + '/views');
 app = config(app);
 
-mongoose.connect('mongodb://localhost/photoHub');
+mongoose.connect('mongodb://robgmerrill:giants11@ds021299.mlab.com:21299/photohubspace');
 mongoose.connection.on('open', function() {
   console.log('Mongoose connected.');
 });

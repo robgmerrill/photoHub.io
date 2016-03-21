@@ -1,1 +1,59 @@
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @robgmerrill
+ Watch 1
+  Star 0
+ Fork 3 MEANintro/ecom
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathecom/.gitignore
+00d84ab  on Feb 19
+@cameron4us cameron4us added gitignore
+1 contributor
+RawBlameHistory     42 lines (38 sloc)  495 Bytes
+db/**
 node_modules
+node_modules/**
+**/node_modules
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
