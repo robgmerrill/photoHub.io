@@ -2,6 +2,7 @@ var sidebar = require('../helpers/sidebar');
 var fs = require('fs');
 var path = require('path');
 var Models = require('../models');
+var md5 = require('MD5');
 
 module.exports = {
   index: function(req, res) {
